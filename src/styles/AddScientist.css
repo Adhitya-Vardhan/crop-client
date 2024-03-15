@@ -1,0 +1,36 @@
+/* ScientistForm.css */
+
+.form-container {
+  max-width: 600px;
+  margin: 20px auto; /* Add margin to create space */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}

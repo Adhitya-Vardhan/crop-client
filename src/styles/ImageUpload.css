@@ -1,0 +1,63 @@
+/* Form.css */
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2; /* Light gray */
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.upload-button,
+.get-link-button,
+.confirm-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-button {
+  background-color: #3498db; /* Blue */
+  color: #fff;
+}
+
+.get-link-button {
+  background-color: #2ecc71; /* Green */
+  color: #fff;
+}
+
+.confirm-button {
+  background-color: #e74c3c; /* Red */
+  color: #fff;
+}
+
+.confirm-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #3498db; /* Blue */
+}
+
+a:hover {
+  text-decoration: underline;
+}

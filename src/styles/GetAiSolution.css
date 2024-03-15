@@ -1,0 +1,62 @@
+/* Structure the parent container for both buttons and images */
+.text-input-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide the container into two columns */
+  max-width: 600px;
+  margin: 20px auto;
+  align-items: center; /* Align horizontally to center */
+}
+
+/* Style the input and button container */
+.button-container {
+  display: flex; /* Use flexbox for layout within the button column */
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Style the input field */
+input {
+  padding: 8px;
+  margin-bottom: 10px; /* Space between the input and button */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the button */
+button {
+  padding: 8px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the image grid container */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Flexible columns for images */
+  gap: 20px; /* Spacing between images */
+}
+
+/* Styling remains the same for image cards */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content p {
+  margin: 0;
+}
